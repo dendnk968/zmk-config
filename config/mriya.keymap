@@ -13,13 +13,9 @@
 #define RSE 2
 #define ADJ 3
 
-&lt {
-    quick_tap_ms = <200>;
-};
+&lt { quick_tap_ms = <200>; };
 
-&mt {
-    quick_tap_ms = <200>;
-};
+&mt { quick_tap_ms = <200>; };
 
 / {
     keymap {
@@ -54,7 +50,7 @@
 
         adjust_layer {
             bindings = <
-  &bootloader  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &bootloader
+  &bootloader  &none         &none         &none         &none         &none           &none         &mkp LCLK     &none         &mkp RCLK     &none         &bootloader
   &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
   &sys_reset   &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &sys_reset
                              &none         &trans        &none         &trans          &trans        &none         &trans        &none
