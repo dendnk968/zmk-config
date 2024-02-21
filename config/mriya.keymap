@@ -53,7 +53,7 @@
             bindings = <
   &bootloader  &none         &none         &none         &none         &none           &none         &mkp LCLK     &mmv MOVE_UP         &mkp RCLK     &none         &bootloader
   &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &bt BT_SEL 0  &bt BT_CLR
-  &sys_reset   &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &sys_reset
+  &reset   &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &reset
                              &none         &trans        &none         &trans          &trans        &none         &trans        &none
             >;
         };
